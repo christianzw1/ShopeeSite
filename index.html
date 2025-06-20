@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divas da Shopee – Achadinhos que cabem no bolso</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Receba os melhores achados da Shopee direto no WhatsApp. Produtos até R$99 com desconto e frete baixo.">
+
+  <!-- Ícones / CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <img src="./assets/img/logo.svg" alt="Divas da Shopee" class="logo">
+  </header>
+
+  <!-- WhatsApp flutuante -->
+  <a class="whatsapp-btn" href="https://chat.whatsapp.com/C9IRtB7CvOEASC4v6mO9ui" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i> Receba ofertas
+  </a>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__text">
+        <h1>🎁 Quer receber os melhores achadinhos da Shopee?</h1>
+        <p>Entre no nosso grupo VIP no WhatsApp e receba promoções antes de todo mundo!</p>
+        <a class="btn-primary" href="https://chat.whatsapp.com/C9IRtB7CvOEASC4v6mO9ui" target="_blank" rel="noopener">👉 Entrar no grupo do WhatsApp</a>
+      </div>
+      <img src="./assets/img/hero.png" alt="Mulher estilosa usando produtos Shopee">
+    </section>
+
+    <!-- Destaques (renderizados via JS) -->
+    <section class="destaques">
+      <h2 class="h2">🔥 Achados da Semana</h2>
+      <div id="home-grid" class="product-grid"></div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categorias">
+      <h2 class="h2">✨ Escolha sua categoria</h2>
+      <div class="cat-grid">
+        <a href="pages/categorias.html#beleza"      class="cat-card">Beleza</a>
+        <a href="pages/categorias.html#fitness"     class="cat-card">Fitness</a>
+        <a href="pages/categorias.html#eletronicos" class="cat-card">Eletrônicos</a>
+        <a href="pages/categorias.html#casa"        class="cat-card">Casa &amp; Cozinha</a>
+        <a href="pages/categorias.html#moda"        class="cat-card">Moda Feminina</a>
+        <a href="pages/categorias.html#masculino"   class="cat-card">Masculino</a>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+      <h2 class="h2">❤️ O que dizem nossos seguidores?</h2>
+      <blockquote>
+        <p>"Comprei vários achadinhos por aqui, recomendo muito!"</p>
+        <cite>— Ana P.</cite>
+      </blockquote>
+      <blockquote>
+        <p>"Amo o grupo de WhatsApp, sempre tem coisa boa!"</p>
+        <cite>— Bruna L.</cite>
+      </blockquote>
+    </section>
+  </main>
+
+  <!-- Navegação inferior -->
+  <nav class="bottom-nav">
+    <a href="index.html"><i class="fa-solid fa-house"></i><span>Início</span></a>
+    <a href="pages/categorias.html"><i class="fa-solid fa-magnifying-glass"></i><span>Categorias</span></a>
+    <a href="pages/ofertas.html"><i class="fa-solid fa-gift"></i><span>Ofertas</span></a>
+    <a href="https://wa.me/SEU_NUMERO" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+  </nav>
+
+  <!-- JS -->
+  <script src="assets/js/products.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
