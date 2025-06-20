@@ -6,29 +6,23 @@ window.PRODUCTS = [
   {
     title: 'Kit 3 Blusas Gola Alta',
     price: 'R$59,99',
-    image: '../assets/img/blus.jpeg',
-    link : 'https://s.shopee.com.br/SEU_LINK_AFILIADO',
-    category: 'moda'
+    image: './assets/img/pd1.png',
+    link : 'https://s.shopee.com.br/4VRBdx9PzN?share_channel_code=1',
+    category: 'beleza'
   },
   {
     title: 'Macaquinho Fitness Detalhe Vivo',
     price: 'R$79,90',
-    image: 'assets/img/macaquinho.jpg',
-    link : 'https://s.shopee.com.br/SEU_LINK_AFILIADO',
+    image: './assets/img/pd2.jpg',
+    link : 'https://s.shopee.com.br/9KWQYGwMoU?share_channel_code=1',
     category: 'fitness'
   },
   {
     title: 'Aparador de Pelos Corporal',
     price: 'R$106,99',
-    image: 'assets/img/aparador.jpg',
-    link : 'https://s.shopee.com.br/SEU_LINK_AFILIADO',
+    image: './assets/img/pd3.jpg',
+    link : 'https://s.shopee.com.br/Vv1x30kuq?share_channel_code=1',
     category: 'eletronicos'
   },
-  {
-    title: 'Queimador de Roupa',
-    price: 'R$1.000',
-    image: "assets/img/aparador.jpg",
-    link : 'https://s.shopee.com.br/SEU_LINK_AFILIADO',
-    category: 'eletronicos'
-  }
+  
 ];
