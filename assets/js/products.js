@@ -4,6 +4,27 @@
 
 window.PRODUCTS = [
   {
+    title: 'KIT 3 Calças LEVANTA BUMBUM fitness Academia Feminina',
+    price: 'R$69,99',
+    image: './assets/img/pd6.jpg',
+    link : 'https://s.shopee.com.br/7fOE265S9d?share_channel_code=1',
+    category: 'fitness'
+  },
+  {
+    title: 'KIT 3 Tops Academia Suplex Fitness Top',
+    price: 'R$29,90',
+    image: './assets/img/pd5.jpg',
+    link : 'https://s.shopee.com.br/6VCGeGt137?share_channel_code=1',
+    category: 'fitness'
+  },
+  {
+    title: 'Tênis Feminino O2X Super Leve Bondi Impact',
+    price: 'R$48,95 ~ R$53,95',
+    image: './assets/img/pd4.jpg',
+    link : 'https://s.shopee.com.br/8UxL27u9qZ?share_channel_code=1',
+    category: 'fitness'
+  },
+  {
     title: 'Kit 3 Blusas Gola Alta',
     price: 'R$59,99',
     image: './assets/img/pd1.png',
